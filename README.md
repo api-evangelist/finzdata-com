@@ -1,4 +1,4 @@
-# finzdata-com
+# FinzData
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,13 +64,13 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FinzData provides comprehensive historical market data APIs covering US stocks, options, futures, crypto, and macroeconomic series. Their platform offers point‑in‑time, survivorship‑bias‑free datasets spanning over 26 years, including delisted securities, with granular intraday bars and extensive fundamentals. Users can access data via REST endpoints or a Python client, with free tier access and paid bundles for deeper coverage.
+FinzData is a point‑in‑time market data API covering US equities, options and dealer gamma (GEX), futures, indices, currency futures, crypto and macro, with 26+ years of history. It offers over 16,000 US stocks since 2000, 139 futures markets, extensive fundamentals, 13F holdings, COT positioning, and macro series with every vintage. One API, a Python client (pip install finzdata) and an MCP server for AI agents provide free tier access and paid bundles for deeper coverage.
 
 **Areas:** Finance · Market Data · Historical Data · API · Python
 
-## finzdata-com on APIs.io
+## FinzData on APIs.io
 
-Everything profiled for finzdata-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/finzdata-com/](https://apis.io/providers/finzdata-com/)** — or go straight to one of the APIs or properties below.
+Everything profiled for FinzData is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/finzdata-com/](https://apis.io/providers/finzdata-com/)** — or go straight to one of the APIs or properties below.
 
 ### APIs (1)
 
@@ -80,12 +80,19 @@ Everything profiled for finzdata-com is published on APIs.io rather than in this
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (2)
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [finzdata-com-mcp.yml](https://apis.io/servers/finzdata-com/finzdata-com-mcp-yml/)
+
+#### Security (3)
 
 Authentication, trust centre, and vulnerability disclosure.
 
 - [Finzdata Com Authentication](https://apis.io/security/finzdata-com/finzdata-com-authentication/)
 - [Finzdata Com Domain Security](https://apis.io/security/finzdata-com/finzdata-com-domain-security/)
+- [Finzdata Com Vulnerability Disclosure](https://apis.io/security/finzdata-com/finzdata-com-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
@@ -104,24 +111,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Pricing](https://finzdata.com/shop)
 - [Sign up](https://finzdata.com/signin)
 - [Support](https://finzdata.com/support)
+- [Security](https://finzdata.com/terms)
 - [Terms of service](https://finzdata.com/terms)
 - [Privacy policy](https://finzdata.com/privacy)
 - [Status](https://finzdata.com/status)
 
 ## API Evangelist rating
 
-**Kin Score 37.0** — thin · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 30.2** — thin · rubric 0.27.0 · scored 2026-11-07
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.7 |
+| Discoverability | 65.8 |
 | Contract quality | 0.0 |
-| Contract governance | 16.4 |
-| Operational transparency | 15.8 |
-| Developer ergonomics | 52.4 |
-| Access clarity | 73.2 |
+| Contract governance | 4.5 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 53.9 |
 
-**Agent readiness 26.1** — agent-aware
+**Agent readiness 29.7** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -135,7 +143,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | flavored (partial credit) |
@@ -146,8 +154,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
 
-**Regulatory alignment 28.7** — Securities & Market Data
+**Regulatory alignment 30.6** — Securities & Market Data
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/finzdata-com/](https://apis.io/providers/finzdata-com/).
 
@@ -155,7 +164,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for finzdata-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for FinzData: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
